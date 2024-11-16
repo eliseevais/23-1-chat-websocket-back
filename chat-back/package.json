@@ -1,0 +1,21 @@
+{
+  "name": "chat-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon --inspect dist/app.js",
+    "watch-dev": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.10",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.3.0",
+    "typescript": "^3.5.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
